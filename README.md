@@ -38,3 +38,22 @@ etc.
 * Organize the needed citations by section (i.e. the parent heading tag)
   * Name additional function get_citations_needed_by_section
 * Automatically do a citation scan for any links from the main section of wikipedia page.
+
+## Setup
+
+```
+python3 -m venv .venv 
+source .venv/bin/activate
+
+pip install pytest
+pip freeze > requirements.txt
+
+cat requirements.txt 
+pip install -r requirements.txt
+pip install --upgrade pip
+
+pytest
+```
+
+## approach
+Had help from classmates.
